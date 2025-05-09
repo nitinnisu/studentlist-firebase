@@ -70,16 +70,7 @@ As part of the assignment, a recorded video demonstrates the following:
 - Opening the browser's Inspect tab (developer tools).
 - Displaying the Network calls made to Firebase during the login process.
 
-## Bonus Features (If any were implemented)
-
-- [List any additional features you implemented beyond the core requirements here.]
-
-## Further Improvements (Optional)
-
-- [Mention any potential improvements or future enhancements you could consider.]
-
 ## Contact
 
-[Your Name]
-[Your Email]
-[Your GitHub Profile (Optional)]
+Nitin Choudhary 
+nitin499533@gmail.com 
