@@ -1,11 +1,11 @@
-/* src/App.css */
+
 :root {
-  --primary-color: #4CAF50; /* A shade of green */
-  --secondary-color: #2196F3; /* A shade of blue */
-  --background-color: #f4f4f4; /* Light gray background */
-  --text-color: #333; /* Dark gray text */
-  --accent-color: #FFC107; /* A shade of amber/yellow */
-  --border-color: #ddd; /* Light gray border */
+  --primary-color: #4CAF50; 
+  --secondary-color: #2196F3; 
+  --background-color: #f4f4f4; 
+  --text-color: #333; 
+  --accent-color: #FFC107; 
+  --border-color: #ddd;
 }
 
 body {
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049; /* Darker shade of primary */
+  background-color: #45a049; 
 }
 
 .error {

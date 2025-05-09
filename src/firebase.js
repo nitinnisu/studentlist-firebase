@@ -1,8 +1,7 @@
-// Import the Firebase SDK
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
-// Your Firebase project configuration
+
 const firebaseConfig = {
     apiKey: "AIzaSyDx6OAbJILHmsm9yTWLojFyBf4fRSuSCVE",
     authDomain: "student-dashboard-1.firebaseapp.com",
@@ -13,11 +12,10 @@ const firebaseConfig = {
     measurementId: "G-GFQ2J27HTJ"
   };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
 
-// Export the Firebase Authentication instance
 export const auth = getAuth(app);
 
 export default app;

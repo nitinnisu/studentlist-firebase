@@ -12,7 +12,6 @@ function Login({ onLogin }) {
     setError('');
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      // If login is successful, the onLogin callback (passed from the parent) can be called
       if (onLogin) {
         onLogin();
       }

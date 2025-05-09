@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function AddStudentForm({ onAddStudent }) { // Receive the onAddStudent prop
+function AddStudentForm({ onAddStudent }) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [course, setCourse] = useState('');
@@ -21,10 +21,8 @@ function AddStudentForm({ onAddStudent }) { // Receive the onAddStudent prop
       return;
     }
 
-    // Call the onAddStudent function passed from the parent (App component)
     onAddStudent({ name, email, course });
 
-    // Clear the form
     setName('');
     setEmail('');
     setCourse('');

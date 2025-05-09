@@ -21,7 +21,7 @@ function App() {
   const [error, setError] = useState(null);
   const [courses, setCourses] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState('');
-  const [initialLoad, setInitialLoad] = useState(true); // To prevent fetching after local storage load
+  const [initialLoad, setInitialLoad] = useState(true); 
 
   useEffect(() => {
     const unsubscribeAuth = onAuthStateChanged(auth, (authUser) => {
@@ -55,7 +55,7 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(students));
     const uniqueCourses = [...new Set(students.map(student => student.course))];
     setCourses(uniqueCourses);
-    handleFilterChange(selectedCourse); // Re-apply the filter when students update
+    handleFilterChange(selectedCourse); 
   }, [students, selectedCourse]);
 
   const handleFilterChange = (course) => {

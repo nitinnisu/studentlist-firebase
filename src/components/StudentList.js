@@ -11,7 +11,6 @@ function StudentList({ students }) {
             <th>Name</th>
             <th>Email</th>
             <th>Course</th>
-            {/* You can add more headers here if you have more student details */}
           </tr>
         </thead>
         <tbody>
@@ -20,7 +19,6 @@ function StudentList({ students }) {
               <td>{student.name}</td>
               <td>{student.email}</td>
               <td>{student.course}</td>
-              {/* You can add more data cells here */}
             </tr>
           ))}
         </tbody>
